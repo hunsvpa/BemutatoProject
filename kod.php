@@ -3,7 +3,7 @@
 
 <?php
 function Kiirni($mitIrjonKi) {
-return $mitIrjonKi;
+return date("Y.m.d H:i:s")." - ".$mitIrjonKi;
 }
 
 echo Kiirni("Helló Eurasia IT");
